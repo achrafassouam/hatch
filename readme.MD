@@ -1,1 +1,1 @@
-a simple static html website
+a simple static website
