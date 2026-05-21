@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hatch Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=admin-login-fix">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#" aria-label="Hatch home">
+        <span class="brand-mark">H</span>
+        <span>Hatch</span>
+      </a>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navActions">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-actions" id="navActions">
+        <a href="#catalog">Catalog</a>
+        <a href="#featured">New arrivals</a>
+        <span class="admin-pill" id="activeAdminLabel">Not signed in</span>
+        <button class="admin-logout" id="logoutAdmin" type="button">Log out</button>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">Dark mode</button>
+        <button class="nav-cart-button" id="openCart" type="button">
+          Cart <span id="cartCount">0 boxes</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured" id="featured" aria-labelledby="featuredTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Recently added</p>
+          <h2 id="featuredTitle">New arrivals</h2>
+        </div>
+      </div>
+      <div class="new-arrivals-carousel">
+        <button class="arrival-control arrival-control-prev" id="newArrivalsPrev" type="button" aria-label="Previous new arrivals">&#8249;</button>
+        <div class="new-arrivals-grid" id="newArrivalsGrid" aria-live="polite"></div>
+        <button class="arrival-control arrival-control-next" id="newArrivalsNext" type="button" aria-label="Next new arrivals">&#8250;</button>
+      </div>
+      <p class="empty-state" id="newArrivalsEmpty" hidden>No new arrivals yet.</p>
+    </section>
+
+    <section class="promotion-section" aria-labelledby="promotionTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Promotion</p>
+          <h2 id="promotionTitle">Promotion</h2>
+        </div>
+      </div>
+      <div class="promotion-carousel">
+        <button class="arrival-control arrival-control-prev promotion-control-prev" id="promotionPrev" type="button" aria-label="Previous promotions">&#8249;</button>
+        <div class="promotion-grid" id="promotionGrid" aria-live="polite"></div>
+        <button class="arrival-control arrival-control-next promotion-control-next" id="promotionNext" type="button" aria-label="Next promotions">&#8250;</button>
+      </div>
+      <p class="empty-state" id="promotionEmpty" hidden>No promotions yet.</p>
+    </section>
+
+    <section class="catalog-section" id="catalog" aria-labelledby="catalogTitle">
+      <div class="section-heading catalog-heading">
+        <div>
+          <p class="eyebrow">Catalog</p>
+          <h2 id="catalogTitle">Shop products</h2>
+        </div>
+        <button class="back-button" id="backToCategories" type="button" hidden>Back to categories</button>
+        <p class="section-meta" id="productCount">Choose a category</p>
+      </div>
+
+      <div class="category-grid" id="categoryGrid" aria-live="polite"></div>
+
+      <div class="products-view" id="productsView" hidden>
+        <div class="toolbar" aria-label="Catalog tools">
+          <label class="search-field">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Search products" autocomplete="off">
+          </label>
+          <label>
+            <span>Sort</span>
+            <select id="sortSelect">
+              <option value="featured">Featured</option>
+              <option value="price-low">Price: low to high</option>
+              <option value="price-high">Price: high to low</option>
+              <option value="packaging">Packaging: high to low</option>
+            </select>
+          </label>
+          <label>
+            <span>Availability filter</span>
+            <select id="stockFilter">
+              <option value="show">Show all products</option>
+              <option value="hide">Only in-stock products</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <p class="empty-state" id="emptyState" hidden>No products match your filters.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Hatch</p>
+    <p>Germany Design</p>
+  </footer>
+
+  <div class="image-preview" id="imagePreview" role="dialog" aria-modal="true" aria-labelledby="previewTitle" hidden>
+    <div class="preview-panel">
+      <button class="preview-close" id="previewClose" type="button" aria-label="Close preview">&times;</button>
+      <div class="preview-layout">
+        <div class="preview-media">
+          <button class="preview-arrow preview-arrow-prev" id="previewPrev" type="button" aria-label="Previous product">&#8249;</button>
+          <img id="previewImage" src="" alt="">
+          <button class="preview-arrow preview-arrow-next" id="previewNext" type="button" aria-label="Next product">&#8250;</button>
+        </div>
+        <div class="preview-details">
+          <p class="preview-category" id="previewCategory"></p>
+          <h2 id="previewTitle"></h2>
+          <dl class="preview-specs">
+            <div>
+              <dt>Reference</dt>
+              <dd id="previewReference"></dd>
+            </div>
+            <div>
+              <dt>Price</dt>
+              <dd id="previewPrice"></dd>
+            </div>
+            <div>
+              <dt>Packaging</dt>
+              <dd id="previewPackaging"></dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd id="previewStock"></dd>
+            </div>
+          </dl>
+          <div class="preview-description" id="previewDescription"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" hidden>
+    <div class="cart-panel">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Purchase order</p>
+          <h2 id="cartTitle">Cart</h2>
+          <p class="cart-header-summary" id="cartHeaderSummary">0 boxes · 0 Dh</p>
+        </div>
+        <button class="cart-close" id="closeCart" type="button" aria-label="Close cart">&times;</button>
+      </div>
+
+      <div class="cart-items" id="cartItems"></div>
+      <p class="empty-state" id="cartEmpty">Your cart is empty.</p>
+
+      <div class="cart-summary">
+        <p class="cart-mobile-summary" id="cartMobileSummary">0 boxes · 0 Dh</p>
+        <div>
+          <span>Total boxes</span>
+          <strong id="cartTotalItems">0</strong>
+        </div>
+        <div>
+          <span>Total value</span>
+          <strong id="cartTotalValue">0 Dh</strong>
+        </div>
+      </div>
+
+      <div class="cart-options">
+        <label class="customer-field">
+          <span>Customer name</span>
+          <input id="customerName" type="text" placeholder="Customer name" aria-describedby="customerNameError">
+          <small class="field-error" id="customerNameError" hidden>Customer name is required before exporting.</small>
+        </label>
+        <label class="picture-toggle">
+          <input id="includePicturesToggle" type="checkbox">
+          <span>Add pictures</span>
+        </label>
+      </div>
+
+      <div class="cart-actions">
+        <button class="primary-action" id="exportCartPdf" type="button">Export PDF</button>
+        <button class="secondary-action" id="exportCartXls" type="button">Export XLS</button>
+        <button class="danger-outline-action" id="clearCart" type="button">Clear cart</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="quantity-popup" id="clearCartConfirmPopup" role="dialog" aria-modal="true" aria-labelledby="clearCartConfirmTitle" hidden>
+    <div class="quantity-panel">
+      <p class="eyebrow">Clear cart</p>
+      <h2 id="clearCartConfirmTitle">Are you sure you want to clear the cart?</h2>
+      <div class="quantity-actions">
+        <button class="secondary-action" id="cancelManualClearCart" type="button">Cancel</button>
+        <button class="danger-action" id="confirmManualClearCart" type="button">Clear cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="undo-toast" id="undoToast" role="status" aria-live="polite" hidden>
+    <span>Item removed.</span>
+    <button id="undoRemoveItem" type="button">Undo</button>
+  </div>
+
+  <div class="login-screen" id="loginScreen" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+    <form class="login-panel" id="loginForm">
+      <p class="eyebrow">Hatch access</p>
+      <h2 id="loginTitle">Choose admin login</h2>
+      <label>
+        <span>Admin</span>
+        <select id="adminSelect">
+          <option value="admin1">admin1</option>
+          <option value="admin2">admin2</option>
+        </select>
+      </label>
+      <p class="login-note">admin1 sees every item. admin2 only sees products allowed in products.csv.</p>
+      <button type="submit">Log in</button>
+    </form>
+  </div>
+
+  <script src="script.js?v=admin-login-fix"></script>
+</body>
+</html>
