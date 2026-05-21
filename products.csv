@@ -1,0 +1,76 @@
+id,group,reference,name,category,size,price,packaging,description,image,stock,new_arrival,promotion,visible_to
+1,1--1,1--1,Table,Beach,,140,6,Table Pliable on 1,images/1--1.jpeg,out of stock,no,no,all
+2,1215-70,1215-70,Chair,Beach,,75,10,Chair Pliable on 1,images/1215-70.jpeg,in stock,no,no,all
+3,1215W,1215W,Chair,Beach,,95,10,Chair Pliable on 1,images/1215W.jpeg,out of stock,no,no,all
+4,1257,1257,Chair,Beach,,150,6,Chair Pliable on 1,images/1257.jpeg,in stock,no,no,all
+5,1608D,1608D,Chair,Beach,,170,6,Chair Pliable on 1,images/1608D.jpeg,in stock,no,no,all
+6,1616H,1616H,Chair,Beach,,120,10,Chair Pliable on 1,images/1616H.jpeg,in stock,no,no,all
+7,2007TG-9,2007TG-9,Table,Beach,,225,4,Table Pliable on 1,images/2007TG-9.jpeg,in stock,no,no,all
+8,2033,2033,Table,Beach,,140,6,Table Pliable on 1,images/2033.jpeg,out of stock,no,no,all
+9,2042,2042,Table,Beach,,350,1,Table Pliable & 4 chairs,images/2042.jpeg,out of stock,no,no,all
+10,3350-3,3350-3,Oil Bottle on 2,Oil Bottle,,55,12,Oil Container On 2 Transparent | 400 + 750 ML,images/3350-3.jpeg,in stock,no,no,all
+11,3350-4,3350-4,Oil Bottle on 2,Oil Bottle,,60,12,Oil Container On 2 Golden | 400 + 750 ML,images/3350-4.jpeg,in stock,no,no,all
+12,3350-9,3350-9,Oil Bottle on 1,Oil Bottle,,26,40,Oil Container On 1 Golden | 750 ML,images/3350-9.jpeg,in stock,no,no,all
+13,3350-13,3350-13,Oil Bottle on 2,Oil Bottle,,65,12,Oil Container On 2 Zelija | 400 + 750 ML,images/3350-13.jpeg,in stock,no,no,all
+14,3350-15,3350-15,Oil Bottle on 1,Oil Bottle,,27.5,48,Oil Container On 1 Zelija | 400 ML,images/3350-15.jpeg,in stock,no,no,all
+15,3350-16,3350-16,Oil Bottle on 1,Oil Bottle,,32.5,40,Oil Container On 1 Zelija | 750 ML,images/3350-16.jpeg,in stock,no,no,all
+16,3350-17,3350-17,Oil Bottle on 2,Oil Bottle,,65,12,Oil Container On 2 Tazerzit | 400 + 750 ML,images/3350-17.jpeg,in stock,no,no,all
+17,HT601,HT601,Gas Stove 60,Gas Stove,,800,1,Gas Stove on 4 | 60,images/HT601.jpeg,out of stock,no,no,all
+18,HT602,HT602,Gas Stove 60,Gas Stove,,800,1,Gas Stove on 4 | 60,images/HT602.jpeg,out of stock,no,no,all
+19,HT603,HT603,Gas Stove 60,Gas Stove,,800,1,Gas Stove on 4 | 60,images/HT603.jpeg,out of stock,no,no,all
+20,HT606,HT606,Gas Stove 60,Gas Stove,,800,1,Gas Stove on 4 | 60,images/HT606.jpeg,out of stock,no,no,all
+21,HT701,HT701,Gas Stove 70,Gas Stove,,950,1,Gas Stove on 5 | 70,images/HT701.jpeg,out of stock,no,no,all
+22,HT702,HT702,Gas Stove 70,Gas Stove,,950,1,Gas Stove on 5 | 70,images/HT702.jpeg,out of stock,no,no,all
+23,YK077,YK077,Canister on 10,Canister,,115,4,Canisters and Oil Bottles on 10 | Maroon,images/YK077.jpeg,in stock,no,no,all
+24,YK097,YK097,Spice Cans on 4,Canister,,7,36,Small Glass Spice Cans on 4,images/YK097.jpeg,in stock,no,no,all
+25,YK099,YK099,Canister on 9,Canister,,120,4,Canister on 9 White Zelija,images/YK099.jpeg,in stock,no,no,all
+26,YK100,YK100,Canister on 6,Canister,,90,6,Canister on 6 White Zelija,images/YK100.jpeg,in stock,no,no,all
+27,YK101,YK101,Canister on 8,Canister,,120,4,Canister on 8 White Zelija,images/YK101.jpeg,in stock,no,no,all
+28,YK104,YK104,Small Cans on 1,Canister,,6,72,Small Canister on 1 | Circular,images/YK104.jpeg,in stock,no,no,all
+29,YK105,YK105,Small Cans on 1,Canister,,6,72,Small Canister on 1 | Squared,images/YK105.jpeg,in stock,no,no,all
+30,YM-101,YM-101,Oil Bottle on 2,Oil Bottle,,40,24,Oil Container On 2 Transparent | 250 + 400 ML,images/YM-101.jpeg,in stock,no,no,all
+31,YM-102,YM-102,Oil Bottle on 2,Oil Bottle,,45,12,Oil Container On 2 Transparent | 400 + 750 ML,images/YM-102.jpeg,in stock,no,no,all
+32,YM-103,YM-103,Oil Bottle on 2,Oil Bottle,,45,24,Oil Container On 2 Golden | 250 + 400 ML,images/YM-103.jpeg,in stock,no,no,all
+33,YM-104,YM-104,Oil Bottle on 2,Oil Bottle,,55,12,Oil Container On 2 Golden | 400 + 750 ML,images/YM-104.jpeg,in stock,no,no,all
+34,YM-105,YM-105,Oil Bottle on 2,Oil Bottle,,50,24,Oil Container On 2 Zelija | 250 + 400 ML,images/YM-105.jpeg,in stock,no,no,all
+35,YM-106,YM-106,Oil Bottle on 2,Oil Bottle,,60,12,Oil Container On 2 Zelija | 400 + 750 ML,images/YM-106.jpeg,in stock,no,no,all
+36,HF251024,HF251024,Cooper Teapot,Tea Pot,24,70,12,Teapot Cooper Body Golden Handle 24oz,images/HF251024.jpeg,in stock,yes,no,all
+37,HF251024,HF251024,Cooper Teapot,Tea Pot,36,80,12,Teapot Cooper Body Golden Handle 36oz,images/HF251024.jpeg,in stock,yes,no,all
+38,HF251024,HF251024,Cooper Teapot,Tea Pot,48,90,12,Teapot Cooper Body Golden Handle 48oz,images/HF251024.jpeg,in stock,yes,no,all
+39,HF251024,HF251024,Cooper Teapot,Tea Pot,60,100,12,Teapot Cooper Body Golden Handle 60oz,images/HF251024.jpeg,in stock,yes,no,all
+40,1297-50,1297-50,Chair,Beach,,180,6,CHAIR SOFT,images/1297-50.jpeg,in stock,yes,no,all
+41,1505-55,1505-55,Chair,Beach,,75,16,CHAIR BLUE,images/1505-55.jpeg,in stock,yes,no,all
+42,1236,1236,Chair,Beach,,230,4,CHAIR RELAX,images/1236.jpeg,in stock,yes,no,all
+43,1321,1321,Chair,Beach,,75,6,CHAIR MASJID,images/1321.jpeg,in stock,yes,no,all
+44,KQ-2,KQ-2,Chair,Beach,,90,10,CHAIR BIEGE,images/KQ-2.jpeg,in stock,yes,no,all
+45,KQ-1,KQ-1,Chair,Beach,,90,10,CHAIR BIEGE,images/KQ-1.jpeg,in stock,yes,no,all
+46,FS-1,FS-1,Chair,Beach,,67.5,25,CHAIR SAC,images/FS-1.jpeg,in stock,yes,no,all
+47,10490-2,10490-2,Chair,Beach,,67.5,10,CHAIR SAC,images/10490-2.jpeg,in stock,yes,no,all
+48,10490-1,10490-1,Chair,Beach,,120,1,CHAIR BEIGE,images/10490-1.jpeg,in stock,yes,no,all
+49,W2137SDG-5.5,W2137SDG-5.5,Ceramic Dish,Ceramic,,7.5,72,GOLDEN DISH 5.5,images/W2137SDG.jpeg,in stock,yes,no,all
+50,W3469SDG-5,W3469SDG-5,Ceramic Dish,Ceramic,,7,72,GOLDEN DISH 5.25,images/W3469SDG-5.jpeg,in stock,yes,no,all
+51,W3259DG-4.2B,W3259DG-4.2B,Ceramic Dish,Ceramic,,6,72,GOLDEN DISH 4.25,images/W3259DG.jpeg,in stock,yes,no,all
+52,W2138SDG-5.25ELE,W2138SDG-5.25ELE,Ceramic Dish,Ceramic,,7,72,GOLDEN DISH 5.25,images/W2138SDG-5.25ELE.jpeg,in stock,yes,no,all
+53,W2679DG-4.25,W2679DG-4.25,Ceramic Dish,Ceramic,,5.5,72,GOLDEN DISH 4.25,images/W2679DG.jpeg,in stock,yes,no,all
+54,WDG-4DXPE,WDG-4DXPE,Ceramic Dish,Ceramic,,4,72,GOLDEN DISH 4,images/WDG-4DXPE.jpeg,in stock,yes,no,all
+55,W1991-4.75FPE,W1991-4.75FPE,Ceramic Dish,Ceramic,,4,72,WHITE DISH 4.75,images/W1991-4.75FPE.jpeg,in stock,yes,no,all
+56,W1808-5.5F,W1808-5.5F,Ceramic Dish,Ceramic,,4,72,WHITE DISH 5.5,images/W1808-5.5F.jpeg,in stock,yes,no,all
+57,W1991-5FPE,W1991-5FPE,Ceramic Dish,Ceramic,,4,72,WHITE DISH 5,images/W1991-5FPE.jpeg,in stock,yes,no,all
+58,W1808-4HB,W1808-4HB,Ceramic Dish,Ceramic,,3.5,72,WHITE DISH 4,images/W1808-4HB.jpeg,in stock,yes,no,all
+59,W1771-4HB,W1771-4HB,Ceramic Dish,Ceramic,,3.5,72,WHITE DISH 4,images/W1771-4HB.jpeg,in stock,yes,no,all
+60,128,128-12PE,Red Plate,Ceramic,45,80,6,Red Plate 18PE,images/128.jpeg,in stock,yes,no,all
+61,128,128-14PE,Red Plate,Ceramic,40,50,8,Red Plate 16PE,images/128.jpeg,in stock,yes,no,all
+62,128,128-16PE,Red Plate,Ceramic,36,28,12,Red Plate 14PE,images/128.jpeg,in stock,yes,no,all
+63,128,128-18PE,Red Plate,Ceramic,30,20,12,Red Plate 12PE,images/128.jpeg,in stock,yes,no,all
+64,W1551,W1551-10,White Plate,Ceramic,10.5,12,24,White Plate 10PE,images/W1551.jpeg,in stock,yes,no,all
+65,W1551,W1551-12,White Plate,Ceramic,30,17.5,12,White Plate 12PE,images/W1551.jpeg,in stock,yes,no,all
+66,W1551,W1551-14,White Plate,Ceramic,36,23.5,12,White Plate 14PE,images/W1551.jpeg,out of stock,yes,no,all
+67,W1551,W1551-16,White Plate,Ceramic,40,40,8,White Plate 16PE,images/W1551.jpeg,in stock,yes,no,all
+68,W1551,W1551-18,White Plate,Ceramic,45,55,6,White Plate 18PE,images/W1551.jpeg,in stock,yes,no,all
+69,RHN,RHN-2.5,Cooker Aluminium,Cooker,2.5L,130,6,Cooker Aluminium 2.5L,images/RHN.jpeg,out of stock,no,no,all
+70,RHN,RHN-3,Cooker Aluminium,Cooker,3L,150,6,Cooker Aluminium 3L,images/RHN.jpeg,out of stock,no,no,all
+71,RHN,RHN-4,Cooker Aluminium,Cooker,4L,170,6,Cooker Aluminium 4L,images/RHN.jpeg,out of stock,no,no,all
+72,RHN,RHN-5,Cooker Aluminium,Cooker,5L,190,6,Cooker Aluminium 5L,images/RHN.jpeg,out of stock,no,no,all
+73,RHN,RHN-7,Cooker Aluminium,Cooker,7L,210,6,Cooker Aluminium 7L,images/RHN.jpeg,out of stock,no,no,all
+74,RHN,RHN-9,Cooker Aluminium,Cooker,9L,240,6,Cooker Aluminium 9L,images/RHN.jpeg,out of stock,no,no,all
+75,RHN,RHN-11,Cooker Aluminium,Cooker,11L,290,4,Cooker Aluminium 11L,images/RHN.jpeg,out of stock,no,no,all
